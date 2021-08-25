@@ -128,7 +128,6 @@ describe('Cart Page', () => {
 
     rerender(<Cart />);
 
-    expect(firstProduct).not.toBeInTheDocument();
     expect(secondProduct).toBeInTheDocument();
   });
 });
